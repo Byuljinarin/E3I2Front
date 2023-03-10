@@ -1,0 +1,120 @@
+.SearchSection{
+
+    padding-top: 200px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-bottom: 3vh;
+    height: 45px;
+
+}
+
+.SearchButton{  
+    float: right;
+    padding: 0;
+    width: 35px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color:transparent;
+    
+}
+
+.VodSearch{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0;
+    float: right;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    box-shadow: 0px 4px 8px 0px #cbcbcb;
+    
+}
+
+.BodySection {
+   margin-left: 2.5vh;
+   margin-right: 2.5vh;
+   box-shadow: 4px 4px 8px 8px #cbcbcb;
+   height: 800px;
+
+}
+
+.BodySectionTitle{
+    margin: 0 auto;
+    width: 92vw;
+    font-size: 32px;
+    height: 100px;
+    text-align: center;
+    line-height: 92px;
+    
+    font-weight: 900;
+    border-bottom: 2px solid #cbcbcb;
+    
+}
+
+.BodySectionVod{
+    margin-top: 3vh;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    border: 2px solid #cbcbcb;
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 65vh;
+}
+
+.BodyEndSection{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.BodySearchResult{
+    height: initial;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    margin-top: 20px;
+    background-color: #007cba;
+    font-size: 32px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    text-align: initial;
+
+}
+
+.BodySearchResult2{
+    height: initial;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #2e3070;
+    font-size: 32px;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: initial;
+
+}
+
+@media screen and (max-width: 921px) {
+    .BodySectionTitle{
+        width: initial;
+        line-height: initial;
+        font-size: 1.5em;
+    }
+
+    .BodySearchResult,
+    .BodySearchResult2 {
+        font-size: 1.3em;
+
+    }
+
+}
