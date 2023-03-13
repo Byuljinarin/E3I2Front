@@ -1,14 +1,13 @@
 import React from 'react';
 import Td from './Td';
 
-const Tr = ({info, handleRemove, handleEdit}) => {
+const Tr = ({info}) => {
     return (
         <tbody>
             {
                 info.map(item => {
                     return (
-                        <Td key={item.id} item={item} handleRemove={handleRemove} 
-						handleEdit={handleEdit} />
+                        <Td key={item.id} item={item} />
                     )
                 })
             }

@@ -1,4 +1,6 @@
-import Board from "./Components/Table/Board";
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Patrol from './Components/Patrol/Patrol';
 
 function Article(){
   return <article>
@@ -10,7 +12,9 @@ function Article(){
 function App() {
   return (
     <div>
-      <Board/>
+    <Header></Header>
+    <Patrol></Patrol>
+    <Footer></Footer>
     </div>
   );
 }
