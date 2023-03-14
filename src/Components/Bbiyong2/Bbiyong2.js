@@ -2,6 +2,11 @@ import React from 'react';
 import styles from './Bbiyong2.module.css';
 import SearchButton from './search.png';
 
+import Mafia1 from './Mafia1.png';
+import Mafia2 from './Mafia2.png';
+import Mafia3 from './Mafia3.png';
+import Mafia4 from './Mafia4.png';
+
 function Vod(){
 
 
@@ -12,14 +17,33 @@ function Vod(){
         
         </div>
         <div className={styles.BodySection}>
-            <div className={styles.BodySectionTitle}>23.03.03 (금) 대전 서구 한밭대로 733, 오후 8시 순찰 일지 (타이틀 예시)</div>
-            <div className={styles.BodySectionVod}>동영상 나올 부분</div>
+            <div className={styles.BodySectionTitle}>23.03.03 - Title</div>
+            <div className={styles.BodySectionVod}>
+                <div className={styles.BodySectionChartSection}>
+                    <div className={styles.BodySectionChartTitle}>삐용이 차트</div>
+                    <div className={styles.BodySectionChart}>차트차트차트</div>
+                </div>
+                <div className={styles.BodySectionMafiaSection}>
+                    <div className={styles.BodySectionMafiaTitle}>마피아들</div>
+                    <div className={styles.BodySectionMafiaLine}>
+                        <div className={styles.BodySectionMafiaRoadTitle1}>로드1</div>
+                        <img src={Mafia1} alt="Mafia1" className={styles.BodySectionMafiaRoadImg}></img>
+                        <div className={styles.BodySectionMafiaRoadTitle1}>로드2</div>
+                        <img src={Mafia2} alt="Mafia2" className={styles.BodySectionMafiaRoadImg}></img>
+                        <div className={styles.BodySectionMafiaRoadTitle1}>로드3</div>
+                        <img src={Mafia3} alt="Mafia3" className={styles.BodySectionMafiaRoadImg}></img>
+                        <div className={styles.BodySectionMafiaRoadTitle1}>로드4</div>
+                        <img src={Mafia4} alt="Mafia4" className={styles.BodySectionMafiaRoadImg}></img>
+                </div>
+                </div>
+
+            </div>
         </div>
         <div className={styles.BodyEndSection}>
-            <div className={styles.BodySearchResult}>23.03.03 (금) 대전 서구 한밭대로 733, 오후 5시 순찰 일지 (검색결과 예시)</div>
-            <div className={styles.BodySearchResult2}>23.03.03 (금) 대전 서구 한밭대로 733, 오후 2시 순찰 일지 (검색결과 예시)</div>
-            <div className={styles.BodySearchResult}>23.03.03 (금) 대전 서구 한밭대로 733, 오후 5시 순찰 일지 (검색결과 예시)</div>
-            <div className={styles.BodySearchResult2}>23.03.03 (금) 대전 서구 한밭대로 733, 오후 2시 순찰 일지 (검색결과 예시)</div>
+            <div className={styles.BodySearchResult}>23.03.03 - Title</div>
+            <div className={styles.BodySearchResult2}>23.03.04 - Title</div>
+            <div className={styles.BodySearchResult}>23.03.05 - TItle</div>
+            <div className={styles.BodySearchResult2}>23.03.06 - Title</div>
         </div>
 
         

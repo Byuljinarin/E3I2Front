@@ -36,7 +36,7 @@
    margin-left: 2.5vh;
    margin-right: 2.5vh;
    box-shadow: 4px 4px 8px 8px #cbcbcb;
-   height: 800px;
+   height: 90vh;
 
 }
 
@@ -59,16 +59,72 @@
     margin-right: 2.5vh;
     border: 2px solid #cbcbcb;
     font-size: 100px;
-    background-color: black;
+    background-color: white;
     color: white;
     text-align: center;
-    height: 65vh;
+    height: 74vh;
 }
 
 .BodyEndSection{
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+}
+
+.BodySectionChartSection{
+    border-right:1px solid black;
+    float: left;
+    width: 50vw;
+    height: 74vh;
+    border-bottom: 1px solid black;
+}
+
+.BodySectionChartTitle{
+    float: initial;
+    text-align: center;
+    font-size: 36px;
+    color: black;
+}
+
+.BodySectionMafiaTitle{
+    float: initial;
+    text-align: center;
+    font-size: 36px;
+    color: black;
+}
+
+.BodySectionMafiaLine{
+    border: 3px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    color: black;
+    text-align: center;
+}
+
+.BodySectionMafiaRoadTitle1{
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.BodySectionChart{
+    border: 3px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    padding: 0;
+}
+
+.BodySectionMafiaSection{
+    color: black;
+    float: left;
+    width: 42vw;
 }
 
 .BodySearchResult{
@@ -104,10 +160,30 @@
 
 }
 
+.BodySectionMafiaRoadImg{
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1740px){
+    .BodySectionChartSection{
+        float: initial;
+        margin: auto;
+        width: initial;
+    }
+
+    .BodySectionMafiaSection{
+        float: initial;
+        margin: auto;
+        width: initial;
+    }
+}
+
 @media screen and (max-width: 921px) {
     .BodySectionTitle{
         width: initial;
-        line-height: initial;
         font-size: 1.5em;
     }
 

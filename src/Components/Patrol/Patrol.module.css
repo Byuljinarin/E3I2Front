@@ -43,7 +43,7 @@
     color: black;
     float: left;
     font-size: 32px;
-
+    overflow-y: auto;
 }
 
 @media screen and (max-width: 1910px) {
