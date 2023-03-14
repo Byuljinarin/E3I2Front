@@ -1,6 +1,8 @@
 import React, { useEffect, useState} from "react";
 import axios from 'axios';
 import Tr from './Tr';
+import styles from './Table.module.css';
+
 
 const Board = () => {
   const [info, setInfo] = useState([]);
@@ -16,14 +18,13 @@ const Board = () => {
 
   return (
     <div>
-      <div>고객 정보 리스트</div>
-      <table>
+      <table className={styles.Table}>      
         <thead>
           <tr>
-            <th>Id.</th>
-            <th>시간</th>
-            <th>마피아</th>
-            <th>도로 상태</th>
+            <th className={styles.TableTitleSection}>ID</th>
+            <th className={styles.TableTitleSection}>시간</th>
+            <th className={styles.TableTitleSection}>마피아</th>
+            <th className={styles.TableTitleSection}>도로 상태</th>
           </tr>
         </thead>
         <Tr info={info}/>
