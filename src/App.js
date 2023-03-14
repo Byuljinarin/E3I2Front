@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
     <Header></Header>
-    <Patrol></Patrol>
+    <Vod></Vod>
     <Footer></Footer>
     </div>
   );

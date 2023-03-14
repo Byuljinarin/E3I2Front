@@ -58,7 +58,6 @@
     margin-left: 2.5vh;
     margin-right: 2.5vh;
     border: 2px solid #cbcbcb;
-    font-size: 100px;
     background-color: white;
     color: white;
     text-align: center;
@@ -76,7 +75,6 @@
     float: left;
     width: 50vw;
     height: 74vh;
-    border-bottom: 1px solid black;
 }
 
 .BodySectionChartTitle{
@@ -101,10 +99,10 @@
     margin-right: 0px;
     color: black;
     text-align: center;
+    display: flex;
 }
 
 .BodySectionMafiaRoadTitle1{
-    text-align: center;
     font-size: 36px;
     margin: 0;
     padding: 0;
@@ -119,6 +117,7 @@
     margin-right: 20px;
     color: black;
     padding: 0;
+    font-size: 48px;
 }
 
 .BodySectionMafiaSection{
@@ -161,8 +160,8 @@
 }
 
 .BodySectionMafiaRoadImg{
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
     padding: 0;
     margin: 0;
 }
