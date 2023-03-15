@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Bbiyong2.module.css';
 import SearchButton from './search.png';
+import MyResponsivePie from '../Charts/Charts';
 
 import Mafia1 from './Mafia1.png';
 import Mafia2 from './Mafia2.png';
@@ -21,7 +22,7 @@ function Vod(){
             <div className={styles.BodySectionVod}>
                 <div className={styles.BodySectionChartSection}>
                     <div className={styles.BodySectionChartTitle}>삐용이 차트</div>
-                    <div className={styles.BodySectionChart}>차트차트차트</div>
+                    <div className={styles.BodySectionChart}><MyResponsivePie></MyResponsivePie></div>
                 </div>
                 <div className={styles.BodySectionMafiaSection}>
                     <div className={styles.BodySectionMafiaTitle}>마피아들</div>

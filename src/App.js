@@ -4,6 +4,8 @@ import Patrol from './Components/Patrol/Patrol';
 import Vod from './Components/Bbiyong2/Bbiyong2';
 import Admin from './Components/Admin/Admin';
 
+import MyResponsivePie from './Components/Charts/Charts';
+
 function Article(){
   return <article>
     <div>본문 들어갈 자리123131321231313213</div>
@@ -14,9 +16,9 @@ function Article(){
 function App() {
   return (
     <div>
-    <Header></Header>
-    <Vod></Vod>
-    <Footer></Footer>
+      <Header></Header>
+      <Vod></Vod>
+      <Footer></Footer>
     </div>
   );
 }
