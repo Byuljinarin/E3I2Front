@@ -1,5 +1,4 @@
 .SearchSection{
-
     padding-top: 200px;
     padding-left: 3vh;
     padding-right: 3vh;
@@ -58,7 +57,6 @@
     margin-left: 2.5vh;
     margin-right: 2.5vh;
     border: 2px solid #cbcbcb;
-    background-color: white;
     color: white;
     text-align: center;
     height: 74vh;
@@ -71,7 +69,6 @@
 }
 
 .BodySectionChartSection{
-    border-right:1px solid black;
     float: left;
     width: 50vw;
     height: 74vh;
@@ -92,32 +89,29 @@
 }
 
 .BodySectionMafiaLine{
-    border: 3px solid gray;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 0px;
     color: black;
     text-align: center;
-    display: flex;
 }
 
 .BodySectionMafiaRoadTitle1{
     font-size: 36px;
-    margin: 0;
+    margin-top: 15px;
     padding: 0;
 
 }
 
 .BodySectionChart{
-    border: 3px solid gray;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     color: black;
     padding: 0;
-
+    position: relative; 
 }
 
 .BodySectionMafiaSection{
@@ -160,24 +154,32 @@
 }
 
 .BodySectionMafiaRoadImg{
-    width: 64px;
-    height: 64px;
-    padding: 0;
-    margin: 0;
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+    margin: auto;
 }
 
 @media screen and (max-width: 1740px){
+    .BodySection{
+        height: 173vh;
+    }
     .BodySectionChartSection{
         float: initial;
         margin: auto;
         width: initial;
+        height: 75vh;
     }
 
     .BodySectionMafiaSection{
         float: initial;
-        margin: auto;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
         width: initial;
+        border: 2px solid #cbcbcb;
     }
+
 }
 
 @media screen and (max-width: 921px) {

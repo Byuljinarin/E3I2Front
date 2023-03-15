@@ -3,7 +3,7 @@ import { ChartsData } from './ChartsData';
 
 const MyResponsivePie = () => {
     return (
-        <div style={{height: "620px"}}>
+        <div style={{height: "620px" }}>
     <ResponsivePie
         data={ChartsData}
         margin={{ top: 40, right: 80, bottom: 80, left: 80 }}

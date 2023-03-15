@@ -25,15 +25,15 @@ function Vod(){
                     <div className={styles.BodySectionChart}><MyResponsivePie></MyResponsivePie></div>
                 </div>
                 <div className={styles.BodySectionMafiaSection}>
-                    <div className={styles.BodySectionMafiaTitle}>마피아들</div>
+                    <div className={styles.BodySectionMafiaTitle}>나타난 마피아들</div>
                     <div className={styles.BodySectionMafiaLine}>
-                        <div className={styles.BodySectionMafiaRoadTitle1}>로드1</div>
+                        <div className={styles.BodySectionMafiaRoadTitle1}>1번째 길</div>
                         <img src={Mafia1} alt="Mafia1" className={styles.BodySectionMafiaRoadImg}></img>
-                        <div className={styles.BodySectionMafiaRoadTitle1}>로드2</div>
+                        <div className={styles.BodySectionMafiaRoadTitle1}>2번째 길</div>
                         <img src={Mafia2} alt="Mafia2" className={styles.BodySectionMafiaRoadImg}></img>
-                        <div className={styles.BodySectionMafiaRoadTitle1}>로드3</div>
+                        <div className={styles.BodySectionMafiaRoadTitle1}>3번째 길</div>
                         <img src={Mafia3} alt="Mafia3" className={styles.BodySectionMafiaRoadImg}></img>
-                        <div className={styles.BodySectionMafiaRoadTitle1}>로드4</div>
+                        <div className={styles.BodySectionMafiaRoadTitle1}>4번째 길</div>
                         <img src={Mafia4} alt="Mafia4" className={styles.BodySectionMafiaRoadImg}></img>
                 </div>
                 </div>

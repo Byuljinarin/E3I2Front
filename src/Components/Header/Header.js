@@ -19,7 +19,8 @@ const HeaderCSS = styled.div`
   font-size: 30px;
   text-shadow: 2px 2px 2px gray;
   padding-left:145px;
-
+  z-index: 99;
+  
   .linkstyle {
     color: white;
     text-decoration:none;
